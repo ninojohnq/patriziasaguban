@@ -9,22 +9,51 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <title>Happy Anniversarys</title>
+    <title>Happy Anniversary</title>
+    <style>
+      /* Custom CSS for the template */
+      body {
+        background-color: #f6f6f6;
+      }
+      .jumbotron {
+        background: url("anniversary-bg.jpg") no-repeat center center;
+        background-size: cover;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+      }
+      .message {
+        font-size: 24px;
+      }
+      .signature {
+        font-size: 20px;
+      }
+    </style>
   </head>
   <body>
-    <div class="container text-center py-5">
-      <h1 class="display-4">Happy Anniversary!</h1>
-      <p class="lead">
+    <div class="jumbotron text-center">
+      <h1 class="display-3">Happy Anniversary!</h1>
+      <p class="lead message">
         Wishing you a day filled with love, joy, and happiness.
       </p>
-      <img
-        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fscience%2Fflower&psig=AOvVaw2U9W_nmqxh9OSNXvPxeJPP&ust=1698951524681000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCz6uK9o4IDFQAAAAAdAAAAABAF"
-        alt="Anniversary Celebration"
-        class="img-fluid rounded-circle my-4"
-        width="400"
-      />
-      <p>May your love continue to grow and flourish with each passing year.</p>
-      <p class="font-italic">- Your Name</p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="anniversary-image.jpg"
+            alt="Anniversary Celebration"
+            class="img-fluid rounded my-4"
+            width="100%"
+          />
+        </div>
+        <div class="col-md-6">
+          <p class="message">
+            May your love continue to grow and flourish with each passing year.
+          </p>
+          <p class="signature">- Your Name</p>
+        </div>
+      </div>
     </div>
 
     <script
