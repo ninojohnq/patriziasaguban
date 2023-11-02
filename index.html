@@ -3,39 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <title>Happy Anniversary</title>
     <style>
-      /* Custom CSS for the template */
-      body {
-        background-color: #f6f6f6;
-      }
-      .anniversary-message {
-        font-size: 24px;
+      /* Custom CSS for the landing page */
+      .hero-section {
+        background: url("background-image.jpg") no-repeat center center;
+        background-size: cover;
+        color: #fff;
         text-align: center;
-        margin: 50px;
+        padding: 150px 0;
       }
-      .signature {
-        font-size: 20px;
-        text-align: right;
-        margin-right: 30px;
+      .hero-content {
+        max-width: 600px;
+        margin: 0 auto;
       }
     </style>
   </head>
   <body>
-    <div class="container text-center">
-      <h1 class="display-4">Happy Anniversary!</h1>
-      <p class="anniversary-message">
-        Wishing you a day filled with love, joy, and happiness. May your love
-        continue to grow and flourish with each passing year.
-      </p>
-      <p class="signature">- Your Name</p>
-    </div>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="display-3">Welcome to Our Landing Page</h1>
+          <p class="lead">A place to discover amazing products and services.</p>
+          <a href="#learn-more" class="btn btn-primary btn-lg">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn-more" class="container my-5">
+      <h2 class="display-4 text-center mb-4">Learn More</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Feature 1</h3>
+          <p>Description of Feature 1.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Feature 2</h3>
+          <p>Description of Feature 2.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Feature 3</h3>
+          <p>Description of Feature 3.</p>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
